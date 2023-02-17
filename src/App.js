@@ -15,7 +15,7 @@ function App() {
       <div className="">
         <Header />
         <div className="border-b border-gray-500"></div>
-        <h2 className="text-gray-400 font-bold p-2">YESTERDAY</h2>
+        <h2 className="text-gray-400 font-bold p-2 text-[25px]">YESTERDAY</h2>
       </div>
       <div className="body__post">
           

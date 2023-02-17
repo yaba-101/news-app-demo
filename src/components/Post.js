@@ -6,11 +6,11 @@ function Post({img, title, description}) {
     hover:scale-[101%] hover:opacity-75 cursor-pointer transition duration-100 ease-out'>
         <div className='flex text-gray-200 items-center  active:scale-[95%]'>
             <div className='p-2 '>
-                <img src={img} className="h-[45px] w-[45px] rounded-lg"/>
+                <img src={img} className="h-[65px] w-[65px] rounded-lg"/>
             </div>
-            <div className=' w-[200px]'>
-                <p className='text-[13px] font-semibold'>{title}</p>
-                <p className='text-[10px]'>{description}</p>
+            <div className=' w-[300px]'>
+                <p className='text-[18px] font-semibold'>{title}</p>
+                <p className='text-[15px]'>{description}</p>
             </div> 
             
         </div>
